@@ -14,6 +14,8 @@ public class Ship extends Actor
     }
     public void kill(){
         this.alive = false;
+        Greenfoot.stop();
+        getWorld().removeObject(this);
     }
     public boolean getAlive(){
         return this.alive;
@@ -43,5 +45,9 @@ public class Ship extends Actor
         if(!Greenfoot.isKeyDown(" ")){
             canShoot = true;
         }
+        if(isTouching(Asteroid.class)){
+            kill();
+        }
+        
     }    
 }
