@@ -1,0 +1,35 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MyWorld extends World
+{
+
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(800, 800, 1); 
+        //create two spider objects
+        Spider b1= new Spider();
+        Spider b2= new Spider();
+        //create three ant objects
+        Ant a1 = new Ant();
+        Ant a2 = new Ant();
+        Ant a3 = new Ant();
+        //add two spider obbjects to the world
+        addObject(b1, 400, 400);
+        addObject(b2, 200, 25);
+        //add three ant objects to the world
+        addObject(a1, 30, 500);
+        addObject(a2, 30, 400);
+        addObject(a3, 30, 300);
+    }
+}

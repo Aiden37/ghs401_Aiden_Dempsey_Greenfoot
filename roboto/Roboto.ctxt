@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Roboto
+comment1.params=battery\ speed\ efficiancy
+comment1.target=Roboto(int,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getBatteryLevel()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

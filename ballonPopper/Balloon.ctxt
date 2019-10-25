@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Balloon
+comment1.params=s
+comment1.target=Balloon(int)
+comment2.params=
+comment2.target=void\ resetPosition()
+comment3.params=
+comment3.target=int\ getFlightTime()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

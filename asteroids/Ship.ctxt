@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Ship
+comment1.params=
+comment1.target=Ship()
+comment2.params=
+comment2.target=void\ kill()
+comment3.params=
+comment3.target=boolean\ getAlive()
+comment4.params=
+comment4.target=void\ act()
+numComments=5
