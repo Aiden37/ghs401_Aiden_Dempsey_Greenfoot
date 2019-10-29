@@ -6,16 +6,25 @@ public class Ship extends Actor
     private int rotation;
     private boolean canShoot;
     private boolean alive;
+    public int score;
     public Ship(){
         this.speed = 0;
         this.points = 0;
         this.canShoot = true;
         this.alive = true;
+        GreenfootImage image = getImage(); 
+        image.scale(50, 50);
+        setImage(image);
+    }
+    public int getScore(){
+        return score;
     }
     public void kill(){
+        this.canShoot = false;
         this.alive = false;
-        Greenfoot.stop();
+        removeTouching(Asteroid.class);
         getWorld().removeObject(this);
+        Greenfoot.stop();
     }
     public boolean getAlive(){
         return this.alive;

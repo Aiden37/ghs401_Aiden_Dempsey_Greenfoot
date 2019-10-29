@@ -4,7 +4,7 @@ public class Pellet extends Actor
     private int speed;
     private int rotation;
     public Pellet(int rot){
-        this.speed = 6;
+        this.speed = 8;
         this.rotation = rot;
         GreenfootImage image = getImage(); 
         image.scale(20, 20);
